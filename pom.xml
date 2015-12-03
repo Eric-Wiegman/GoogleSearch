@@ -8,8 +8,8 @@
     <artifactId>google-search</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Internet Meme JSON tests project</name>
-    <description>Parse JSON, Sort, and write LULZ back to file </description>
+    <name>Google Search tests project</name>
+    <description>Do ZIP search in Google that brings up image map</description>
     <url>http://maven.apache.org</url>
 
     <properties>
