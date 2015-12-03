@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoogleSearch">
+    <test name="GoogleSearch">
+        <classes>
+            <class name="testNG.GoogleSearchTests">
+                <methods>
+                    <include name="verifyResultsPageSeen"/>
+                    <include name="verifyImageMapSeen"/>
+                    <include name="verifyImageMapLink"/>
+                    <include name="verifySearchBoxContents"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
